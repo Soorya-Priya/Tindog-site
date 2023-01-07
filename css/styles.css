@@ -1,0 +1,144 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  /* position: relative;
+  z-index: -1; */
+}
+.container-fluid{
+  padding: 3% 18%;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 60px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+.nav-item{
+  padding:0 20px;
+}
+/* download button */
+.download-btn{
+  margin: 5% 3% 3% 2%;
+  text-align: left;
+}
+/* title image */
+.title-img{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+/* features */
+#features{
+  padding: 5% 18%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-icon{
+  color: #ef8178;
+  padding-bottom: 6%;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+.features-heading
+{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-Black', sans-serif;
+}
+.features-text{
+  color: #8f8f8f;
+}
+
+
+/* testimonial section */
+#testimonials{
+  background-color: #ef8178;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+}
+.carousel-item{
+  padding: 5% 18%;
+}
+.testimonial-text{
+  font-size: 3rem;
+  font-family: 'Montserrat-Black', sans-serif;
+   color: #fff;
+}
+.testimonial-image{
+  border-radius:100%;
+  width: 15%;
+}
+/* press */
+#press{
+  background-color: #ef8178;
+  padding: 5% 18%;
+}
+.logo{
+  width:15%;
+}
+/* pricing */
+#pricing{
+  padding: 5% 18%;
+}
+/* call to Action */
+#cta{
+  background-color: #ef8178;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #fff;
+  padding: 5% 18%;
+}
+.cta-text{
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* footer */
+#footer{
+  padding: 5% 18%;
+}
+
+
+
+/* responsive */
+@media (max-width: 1000px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  #title{
+    text-align: center;
+  }
+  h1,h2{
+    font-size: 8vw;
+    text-align: center;
+  }
+  .testimonial-text{
+    font-size: 6vw;
+  }
+  .cta-text{
+    font-size: 6vw;
+  }
+}
