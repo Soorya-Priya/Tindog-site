@@ -75,7 +75,7 @@ body{
 
 /* testimonial section */
 #testimonials{
-  background-color: #ef8178;
+  background-color: #ff4c68;
   font-family: 'Montserrat-Black', sans-serif;
   color: #fff;
 }
@@ -93,7 +93,7 @@ body{
 }
 /* press */
 #press{
-  background-color: #ef8178;
+  background-color: #ff4c68;
   padding: 5% 18%;
 }
 .logo{
@@ -105,7 +105,7 @@ body{
 }
 /* call to Action */
 #cta{
-  background-color: #ef8178;
+  background-color: #ff4c68;
   font-family: 'Montserrat-Black', sans-serif;
   color: #fff;
   padding: 5% 18%;
